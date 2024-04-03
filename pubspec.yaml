@@ -40,6 +40,10 @@ dependencies:
   freezed_annotation: ^2.4.1
   flutter_svg: ^2.0.9
   shared_preferences: ^2.2.2
+  firebase_core: ^2.28.0
+  cloud_firestore: ^4.16.0
+  internet_connection_checker_plus: ^2.3.0
+  
 
 dev_dependencies:
   flutter_test:

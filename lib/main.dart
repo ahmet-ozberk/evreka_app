@@ -1,8 +1,10 @@
+import 'package:evreka_app/app/init/starter.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-void main() {
+void main() async{
+  await Starter.start();
   runApp(const ProviderScope(child: EvrekaApp()));
 }
 
