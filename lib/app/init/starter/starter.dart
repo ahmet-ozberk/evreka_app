@@ -12,5 +12,6 @@ final class Starter {
     // Firebase initialization
     final currPlatform = DefaultFirebaseOptions.currentPlatform;
     await Firebase.initializeApp(options: currPlatform);
+
   }
 }
